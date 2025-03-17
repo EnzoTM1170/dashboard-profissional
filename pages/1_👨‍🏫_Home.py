@@ -54,7 +54,7 @@ st.markdown("""
 col_foto, col_conteudo = st.columns([1, 2], gap="large")
 
 with col_foto:
-    st.image(st.secrets["caminhos"]["imagem"], width=300)
+    st.image("boa.jpeg", width=300)
 
 with col_conteudo:
     st.markdown('<div class="col-conteudo">', unsafe_allow_html=True)
