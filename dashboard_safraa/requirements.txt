@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scipy
+plotly
+openpyxl
+streamlit-extras
+seaborn==0.12.2
+streamlit-image-zoom
