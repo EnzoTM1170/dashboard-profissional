@@ -62,7 +62,7 @@ with col_conteudo:
     # Container do botão centralizado
     st.markdown('<div class="botao-download-container">', unsafe_allow_html=True)
     
-    with open(st.secrets["caminhos"]["pdf"], "rb") as pdf_file:
+    with open("curriculo.08.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
     
     st.download_button(
@@ -75,7 +75,6 @@ with col_conteudo:
     
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
-
 # Objetivo Profissional
 st.markdown("""
 <div class="objetivo-profissional">
